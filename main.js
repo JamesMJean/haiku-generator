@@ -21,10 +21,3 @@ let lastFive = ['How much time is left?', 'The light is turned off.', 'I should 
 let lineArray = [firstFive, middleSeven, lastFive];
 
 console.log(createHaiku(lineArray));
-
-
-/*
-console.log(getRandomString(firstFive));
-console.log(getRandomString(middleSeven));
-console.log(getRandomString(lastFive));
-*/
