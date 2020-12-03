@@ -10,4 +10,6 @@ let firstFive = ['ff1', 'ff2', 'ff3', 'ff4', 'ff5'];
 let middleSeven = ['ms1', 'ms2', 'ms3', 'ms4', 'ms5'];
 let lastFive = ['lf1', 'lf2', 'lf3', 'lf4', 'lf5'];
 
-console.log(`${getRandomString(firstFive)}, ${getRandomString(middleSeven)}, ${getRandomString(lastFive)}.`);
+console.log(getRandomString(firstFive));
+console.log(getRandomString(middleSeven));
+console.log(getRandomString(lastFive));
