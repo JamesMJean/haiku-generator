@@ -6,9 +6,9 @@ const getRandomString = strArray => {
     return strArray[Math.floor(Math.random() * strArray.length)];
 };
 
-let firstFive = ['ff1', 'ff2', 'ff3', 'ff4', 'ff5'];
-let middleSeven = ['ms1', 'ms2', 'ms3', 'ms4', 'ms5'];
-let lastFive = ['lf1', 'lf2', 'lf3', 'lf4', 'lf5'];
+let firstFive = ['Tired of wasting time', 'Canvas is still blank', 'How shall I begin?', 'Start the day early,', 'Slowly getting this,'];
+let middleSeven = ['Longing to be productive', 'Past the rivers and mountains', 'Discard that which is useless', 'So many places to see', 'If we can travel again'];
+let lastFive = ['How much time is left?', 'The light is turned off.', 'I should get a cat.', 'Won\'t teach forever.', 'So much more to learn.'];
 
 console.log(getRandomString(firstFive));
 console.log(getRandomString(middleSeven));
